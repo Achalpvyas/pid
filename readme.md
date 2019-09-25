@@ -3,6 +3,17 @@
 [![Coverage Status](https://coveralls.io/repos/github/sbrahma0/pid/badge.svg?branch=master)](https://coveralls.io/github/sbrahma0/pid?branch=master)
 ---
 
+Part 1:
+
+Driver - Sayan Brahma
+Navigatro - Akwashi A obeng
+
+Part 2:
+
+Driver - Akwashi A obeng
+Navigatro - Sayan Brahma
+
+
 ## Overview
 
 Simple starter C++ project with:
