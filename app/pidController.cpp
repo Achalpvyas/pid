@@ -23,7 +23,7 @@ pidController::pidController() {
  */
 pidController::pidController(double kpInput, double kiInput,
 double kdInput, double dtInput) {
-    double kp = kpInput, ki = kiInput, kd = kdInput, dt = dtInput;
+    kp = kpInput, ki = kiInput, kd = kdInput, dt = dtInput;
 
     std::cout << "The user entered parameters are: kp = " << kp << " ki = "
 << ki << " kd = " << kd << " dt = " << dt << std::endl;
@@ -42,7 +42,6 @@ double pidController::compute(double setValue, double currentValue) {
       if (dt > 0) {
           cv = (kp * error) + (ki * error * dt)
 + (kd * error / dt);
-          std::cout << "New value is- " << cv << std::endl;
       } else {
       std::cout << "Time has to be a non-negative value. "
               "Output velocity set to 0.";

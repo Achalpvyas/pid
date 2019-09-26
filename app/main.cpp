@@ -24,10 +24,6 @@ int main() {
 
 
     pidController pid(kp, ki, kd, dt);
-    double error = currentValue - setValue;
-    double cv = (kp * error) + (ki * error * dt)
-    + (kd * error / dt);
-    std::cout << "new- " << cv << std::endl;
     double nv = pid.compute(setValue, currentValue);
     std::cout << "The new value is- " << nv << std::endl;
     return 0;
