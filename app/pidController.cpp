@@ -38,7 +38,7 @@ double pidController::compute(double setValue, double currentValue) {
     double error = setValue - currentValue;  // compute the error
     std::cout << "Error- : " << error << std::endl;
 
-    double cv;
+    double cv = 0;
       if (dt > 0) {
           cv = (kp * error) + (ki * error * dt)
 + (kd * error / dt);
