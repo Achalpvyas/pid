@@ -17,7 +17,6 @@ class pidController {
 	 */
  private:
     double kp = 0.0, ki = 0.0, kd = 0.0, dt = 1.0;
-    double setValue = 0.0, currentValue = 0.0;
 	/**
 	 *	@brief contains all the public methods/functions
 	 */
