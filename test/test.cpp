@@ -29,6 +29,6 @@ TEST(kptest, should_pass) {
  */
 
 TEST(zerotest, should_pass) {
-  EXPECT_DOUBLE_EQ(ob.compute(12, 10), 0.0);
+  EXPECT_DOUBLE_EQ(ob1.compute(12, 10), 0.0);
 }
 
