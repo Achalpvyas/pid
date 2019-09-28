@@ -31,4 +31,11 @@ TEST(kptest, should_pass) {
 TEST(zerotest, should_pass) {
   EXPECT_DOUBLE_EQ(ob1.compute(12, 10), 0.0);
 }
+/**
+ * @brief This is the negative test i.e., when all the parameters are -ve then the final value should be -ve
+ */
+
+TEST(negativetest, should_pass) {
+  EXPECT_DOUBLE_EQ(ob2.compute(12, 10), -6.0);
+}
 
