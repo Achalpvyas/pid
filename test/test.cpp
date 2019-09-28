@@ -16,6 +16,7 @@ TEST(dummy, should_pass) {
 */
 pidController ob(1.0, 0, 0, 1);
 pidController ob1(0.0, 0, 0, 1);
+pidController ob2(-1, -1, -1, 1);
 
 /**
  * @brief This is the kp test i.e., it is only a proportional controller with all the parameters set to 0
