@@ -41,10 +41,6 @@ class pidController {
 	 *
 	 */
     double compute(double setValue, double currentValue);
-	/**
-	 *
-	 */
-    double returndt();
 };
 
 #endif  // INCLUDE_PID_CONTROLLER_HPP_

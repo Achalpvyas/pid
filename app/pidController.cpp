@@ -39,24 +39,15 @@ double pidController::compute(double setValue, double currentValue) {
     std::cout << "Error- : " << error << std::endl;
 
     double cv = 0;
-      if (dt > 0) {
+
           cv = (kp * error) + (ki * error * dt)
 + (kd * error / dt);
-      } else {
-      std::cout << "Time has to be a non-negative value. "
-              "Output velocity set to 0.";
-      }
+
       return cv;
-}
-/**
- * @brief This function returns the dt value
- * @return dt
- */
-double pidController::returndt() {
-    return dt;
 }
 /**
  * @brief Destructor
  */
 pidController::~pidController() {
 }
+
