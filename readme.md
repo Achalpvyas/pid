@@ -6,11 +6,11 @@
 Part 1:
 
 Driver - Sayan Brahma
-Navigatro - Akwashi A obeng
+Navigatro - Akwasi A obeng
 
 Part 2:
 
-Driver - Akwashi A obeng
+Driver - Akwasi A obeng
 Navigatro - Sayan Brahma
 
 
